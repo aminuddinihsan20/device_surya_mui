@@ -1,12 +1,19 @@
+# Audio
+tas.smartpa.debug.disable          u:object_r:vendor_default_prop:s0
+tas.smartpa.debug.txdevice         u:object_r:vendor_default_prop:s0
+tas.smartpa.debug.txformat24       u:object_r:vendor_default_prop:s0
+
 # Camera
-vendor.camera.                     u:object_r:vendor_camera_prop:s0
-camera.sensor.rearMain.fuseID      u:object_r:vendor_camera_prop:s0
 camera.sensor.frontAux.fuseID      u:object_r:vendor_camera_prop:s0
 camera.sensor.frontMain.fuseID     u:object_r:vendor_camera_prop:s0
-camera.sensor.rearUltra.fuseID     u:object_r:vendor_camera_prop:s0
+camera.sensor.rearMain.fuseID      u:object_r:vendor_camera_prop:s0
 camera.sensor.rearTele.fuseID      u:object_r:vendor_camera_prop:s0
+camera.sensor.rearUltra.fuseID     u:object_r:vendor_camera_prop:s0
 persist.camera.                    u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.mi.module.   u:object_r:vendor_camera_prop:s0
+ro.camera.req.fmq.size             u:object_r:exported_default_prop:s0
+ro.camera.res.fmq.size             u:object_r:exported_default_prop:s0
+vendor.camera.                     u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 gf.debug.                          u:object_r:vendor_fp_prop:s0
@@ -34,6 +41,7 @@ persist.vendor.radio.meid          u:object_r:vendor_deviceid_prop:s0
 ro.boot.hwc                        u:object_r:build_prop:s0
 ro.boot.hwversion                  u:object_r:build_prop:s0
 ro.miui.                           u:object_r:build_prop:s0
+ro.product.marketname              u:object_r:build_prop:s0
 ro.product.mod_device              u:object_r:build_prop:s0
 
 # Xiaomi thermal daemon
