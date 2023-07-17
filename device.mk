@@ -341,6 +341,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
