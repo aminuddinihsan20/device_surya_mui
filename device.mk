@@ -7,9 +7,6 @@
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-# Camera
-$(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
-
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
