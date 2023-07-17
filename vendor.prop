@@ -128,7 +128,10 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 ro.crypto.volume.options=::v2
 
 # Data modules
-ro.telephony.iwlan_operation_mode=legacy
+#ro.telephony.iwlan_operation_mode=legacy
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+
 
 # DPM
 persist.vendor.dpm.feature=1
@@ -145,6 +148,13 @@ debug.sf.earlyGl.sf.duration=13500000
 debug.sf.earlyGl.app.duration=21000000
 debug.sf.enable_hwc_vds=1
 debug.sf.predict_hwc_composition_strategy=0
+#renderthread.skia.reduceopstasksplitting=true
+#debug.renderengine.backend=skiaglthreaded
+debug.hwui.skia_atrace_enabled=false
+debug.sf.disable_backpressure=1
+debug.sf.enable_gl_backpressure=0
+debug.sf.disable_client_composition_cache=1
+debug.sf.frame_rate_multiple_threshold=120
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
@@ -169,9 +179,9 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.qdcm.mode_combine=1
 
 # Display - Dynamic refresh rate
-ro.surface_flinger.set_display_power_timer_ms=1000
-ro.surface_flinger.set_idle_timer_ms=500
-ro.surface_flinger.set_touch_timer_ms=700
+ro.surface_flinger.set_display_power_timer_ms=3000
+ro.surface_flinger.set_idle_timer_ms=900
+ro.surface_flinger.set_touch_timer_ms=2000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
@@ -193,6 +203,9 @@ persist.vendor.cp.vbus_offset_mv=1040
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.vendor.qti.telephony.vt_cam_interface=2
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
 
 # Keystore
 ro.hardware.keystore_desede=true
