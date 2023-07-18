@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#Rising Stuff
+RISING_MAINTAINER := "Muichiro"
+RISING_PACKAGE_TYPE := "VANILLA AOSP"
+TARGET_BUILD_APERTURE_CAMERA := true
+RISING_CHIPSET := "snapdragon 732G"
+
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
