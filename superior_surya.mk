@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
+# Leica Camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
