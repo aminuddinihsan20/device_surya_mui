@@ -229,6 +229,11 @@ persist.vendor.radio.redir_party_num=1
 persist.vendor.radio.report_codec=1
 ro.telephony.default_network=22,22
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
