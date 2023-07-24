@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := awaken_surya
 PRODUCT_DEVICE := surya
