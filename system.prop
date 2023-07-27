@@ -40,6 +40,13 @@ ro.ext4fs=1
 dalvik.vm.heaputilization=0.25
 dalvik.vm.heaptargetutilization=0.75
 
+#Disable USB Debugging PopUp
+persist.adb.notify=0
+
+#Improve Ram Management
+persist.sys.purgeable_assets=1
+ro.config.low_ram=enable
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
