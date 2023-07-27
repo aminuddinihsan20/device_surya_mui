@@ -22,9 +22,19 @@ ro.charger.enable_suspend=true
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
-# Dexopt
-pm.dexopt.first-boot=quicken
-pm.dexopt.bg-dexopt=everything
+#Dalvik and Kernel Flags
+persist.android.strictmode=0
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+ro.config.nocheckin=1
+ro.compcache.default=0
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.verify-bytecode=true
+dalvik.vm.jmiopts=forcecopy
+debug.kill_allocating_task=0
+ro.ext4fs=1
+dalvik.vm.heaputilization=0.25
+dalvik.vm.heaptargetutilization=0.75
 
 # Media
 media.aac_51_output_enabled=true
