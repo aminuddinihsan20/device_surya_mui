@@ -67,5 +67,11 @@ telephony.lteOnCdmaDevice=1
 # Recovery
 ro.recovery.ui.margin_height=48
 
+#UI Optimization
+persist.sys.ui.hw=1
+view.scroll_friction=10
+debug.composition.type=gpu
+debug.performance.tuning=1
+
 # WiFi
 wifi.interface=wlan0
