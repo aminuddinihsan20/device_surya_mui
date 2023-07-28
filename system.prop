@@ -20,7 +20,7 @@ ro.charger.enable_suspend=true
 
 #Cpu Control
 ro.vendor.qti.core_ctl_min_cpu=4
-ro.vendor.qti.core_ctl_max_cpu=8
+ro.vendor.qti.core_ctl_max_cpu=6
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
