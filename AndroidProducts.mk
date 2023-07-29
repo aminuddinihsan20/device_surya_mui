@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_surya.mk
+    $(LOCAL_DIR)/droidx_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_surya-user \
-    superior_surya-userdebug \
-    superior_surya-eng
+    droidx_surya-user \
+    droidx_surya-userdebug \
+    droidx_surya-eng
