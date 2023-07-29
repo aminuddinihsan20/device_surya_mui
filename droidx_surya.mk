@@ -12,9 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/droidx/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+DROIDX_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := false
 
-PRODUCT_NAME := superior_surya
+#DroidxUI Prop
+DROIDX_BUILDTYPE := UNOFFICIAL
+DROIDX_MAINTAINER := Muichiro
+
+PRODUCT_NAME := droidx_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
