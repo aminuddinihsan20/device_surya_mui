@@ -10,7 +10,9 @@ ro.mot.eri.losalert.delay=1000
 pm.sleep_mode=1
 ro.ril.sensor.sleep.control=1
 power_supply.wakeup=enable
-
+ro.vendor.use_data_netmgrd=true 
+ro.vold.umsdirtyratio=20  
+power.saving.mode=1
 
 # Bluetooth
 vendor.bluetooth.soc=cherokee
