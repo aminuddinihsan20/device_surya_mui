@@ -13,6 +13,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_BUILD_APERTURE_CAMERA := true
+ALPHA_MAINTAINER := Muichiro
+TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
