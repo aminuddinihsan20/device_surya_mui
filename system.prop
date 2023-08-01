@@ -42,6 +42,9 @@ dalvik.vm.heaptargetutilization=0.75
 #Disable USB Debugging PopUp
 persist.adb.notify=0
 
+# DroidX-UI maintainer
+ro.droidx.maintainer=Muichiro
+
 #Improve Ram Management
 persist.sys.purgeable_assets=1
 ro.config.low_ram=enable
