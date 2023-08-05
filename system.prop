@@ -27,6 +27,10 @@ ro.vendor.qti.core_ctl_max_cpu=6
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 #Dalvik and Kernel Flags
 persist.android.strictmode=0
 ro.kernel.android.checkjni=0
