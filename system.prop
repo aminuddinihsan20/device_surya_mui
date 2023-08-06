@@ -46,12 +46,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
-#Miscellanous
-persist.sys.gmaps_hack=1
-debug.sf.ddms=0
-ro.warmboot.capability=1
-logcat.live=disable
-
 # RCS
 persist.rcs.supported=1
 
