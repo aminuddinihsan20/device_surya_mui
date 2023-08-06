@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-PRODUCT_NAME := lineage_surya
+PRODUCT_NAME := superior_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
