@@ -1,2 +1,0 @@
-type sysfs_kprofiles, sysfs_type, fs_type;
-type kcal_dev, sysfs_type, fs_type;
