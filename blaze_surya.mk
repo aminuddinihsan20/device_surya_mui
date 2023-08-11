@@ -16,7 +16,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 #BlazeStuff
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := false
-BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Muichiro
 
 PRODUCT_NAME := blaze_surya
