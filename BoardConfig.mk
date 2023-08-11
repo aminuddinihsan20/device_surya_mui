@@ -186,8 +186,8 @@ TARGET_SCREEN_DENSITY := 400
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # SurfaceFlinger
