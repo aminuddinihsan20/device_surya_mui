@@ -90,8 +90,6 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
-
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
@@ -105,16 +103,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 # Camera
-PRODUCT_VENDOR_PROPERTIES += \
-    camera.disable_zsl_mode=1 \
-
-# Charger
-PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.cp.fcc_main_ua=400000 \
-    persist.vendor.cp.taper_term_mv=6500 \
-    persist.vendor.cp.vbus_offset_mv=1040
-
-# ContextHub
 PRODUCT_PACKAGES += \
     libpiex_shim
 
