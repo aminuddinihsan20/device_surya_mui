@@ -42,6 +42,9 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
+# Maintainer
+ro.spos.maintainer=Muichiro09
+
 # RCS
 persist.rcs.supported=1
 
