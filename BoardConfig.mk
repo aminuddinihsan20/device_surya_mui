@@ -6,7 +6,6 @@
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
 BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/surya
@@ -186,6 +185,7 @@ TARGET_SCREEN_DENSITY := 400
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS:=true
 
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
