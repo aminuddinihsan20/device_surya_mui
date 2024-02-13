@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_MATLOG := true
 TARGET_USES_MIUI_CAMERA := true
@@ -20,9 +20,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_ENABLE_BLUR := true
 IS_PHONE := true
-TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_BUILD_APERTURE_CAMERA := true
+AFTERLIGFE_MAINTAINER := muichiro09
 
-PRODUCT_NAME := aosp_surya
+PRODUCT_NAME := afterlife_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
