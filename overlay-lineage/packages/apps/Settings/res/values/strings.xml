@@ -12,6 +12,8 @@
 -->
 
 <resources>
-    <string name="maintainer_git_username">muichiro09</string>
-    <string name="maintainer_tele_username">muichiro09</string>
+   <string name="maintainer_git_username">muichiro09</string>
+    <string name="maintainer_tele_username">muichir09</string>
+    <string name="maintainer_ig_username">Muichiro Tokito</string>
+    <string name="maintainer_fb_username">Muichiro Tokito</string>
 </resources>
